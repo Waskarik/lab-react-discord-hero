@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #404eed;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-bar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.discordHead {
+  width: 20%;
+  position: relative;
+  
+}
+
+.disMenu {
+  width: 5%;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-left: -150px;
+  margin-top: 250px;
+  position: relative;
+  
+}
+
+#buttonDd {
+   background: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+}
+#buttonBrow {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 780px;
+  margin: 80px auto 0;
+  padding: 0 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.hero-content button {
+  margin-top: 20px;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.background-image {
+  width: 100%;
+  display: flex;
+  margin-left:300px ;
+  margin-top: -420px;
+  position:relative;
+}
